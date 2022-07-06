@@ -1,0 +1,117 @@
+.single_page{
+    display: flex;
+    width: 60%;
+    height: 641px;
+    /* background-color: red; */
+    margin: auto;
+}
+
+.productImage{
+    width: 500px;
+    height: 500px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.productImage img{
+    width: 600px;
+}
+
+.productText{
+    width: 430px;
+    min-height: 550px;
+    max-height: 580px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    margin-left: 130px;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+
+.productText span{
+    font-size: 12px;
+    color: gray;
+    padding: 3px;
+    margin-left: 20px;
+    border: 1px solid #555;
+}
+
+.productText a{
+    color: #000;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.productText h3{
+    font-size: 20px;
+    color: #333;
+    margin: 30px 20px;
+}
+.stars{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 13px;
+}
+.stars p{
+    margin-left: 5px;
+}
+
+.productText h1{
+    margin: 20px;
+    color: #333;
+}
+
+.addButton{
+    width: 120px;
+    height: 40px;
+    background-color: #0071DC;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.addButton:hover{
+    background-color: #0632f5;   
+}
+.product_links{
+    width: 90%;
+    height: 130px;
+    /* background-color: red; */
+    margin: 10px auto;
+    border-top: 1px solid rgb(230, 228, 228);
+    border-bottom: 1px solid rgb(219, 216, 216);
+}
+.product_links p{
+    font-size: 13px;
+    margin-top: 20px;
+    color: #666;
+}
+.product_links a{
+    margin-left: 2px;
+    text-decoration: underline;
+}
+.product_add_lists{
+    width: 90%;
+    height: 30px;
+    /* background-color: red; */
+    margin:30px auto;
+    display: flex;
+    align-items: center;
+}
+
+.product_add_lists a{
+    margin-left: 0px;
+    text-decoration: underline;
+    margin: 12px;
+    color: #222;
+}
+.product_add_lists p{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.productImage svg{
+    font-size: 40px;
+}

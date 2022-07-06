@@ -1,0 +1,128 @@
+.home{
+    width: 100%;
+    height: auto;
+}
+
+.deliver{
+    width: 66.5%;
+    height: 390px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 30px;
+}
+.deliver_box{
+    /* background-color: green; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px ;
+    margin: 10px;
+}
+.deliver_box_bottom{
+    width: 100%;
+    height: 64%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.deliver_box1{
+    border-radius: 10px ;
+    margin: 10px;
+}
+
+.deliver_box_top{
+    width: 100%;
+    height: 30%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+    display: flex;
+    background-color: #E6F1FC;
+}
+.deliver_box_top h1{
+    font-size: 16px;
+    margin: 18px 20px;
+}
+.deliver_box_top button{
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #333;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-left: 100px;
+}
+.deliver_box_top button:hover{
+    border: 2px solid #000;
+}
+
+.deliver_box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.box1 img{
+    margin: 40px;
+}
+
+.box img{
+    margin-left: 40px;
+}
+.box p{
+    margin: 10px 0px;
+    text-align: center;
+    color: #333;
+    font-size: 13px;
+}
+
+.deliver_box_bottom  h1{
+    font-size: 15px;
+    margin: 17px ;
+    padding-top: 20px;
+}
+.deliver_box_bottom a{
+    color: #333;
+    font-size: 12px;
+    margin-left: 55%
+}
+
+.deliver_box_bottom_bottom{
+    width: 100%;
+    height:180px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.popular_box{
+    margin: 20px;
+    cursor: pointer;
+}
+.popular_box p{
+    font-size: 13px;
+    text-align: center;
+}
+
+.home_text{
+    width: 66%;
+    height: 60px;
+    background-image: url("../../assets//home-text.svg");
+    background-repeat: no-repeat;
+    margin: auto;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.home_text p{
+    text-align: center;
+   padding-top: 13px;
+   color: #fff;
+   font-size: 14px;
+}
+
+.home_text a{
+    color: #ddd;
+    margin-left: 5px;
+}
+
+.home a{
+    text-decoration: none;
+    color: #000;
+}

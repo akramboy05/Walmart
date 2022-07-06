@@ -1,0 +1,26 @@
+.twoAddBtn{
+    display: flex;
+    align-items: center;
+    width: 170px;
+    height: 40px;
+    background-color:#0071DC;
+    border-radius: 30px;
+    justify-content: space-between;
+    color: #fff;
+    position: absolute;
+    margin-top: 140px;
+}
+
+.twoAddBtn button{
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 50%;
+    margin: 0px 2px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.twoAddBtn button:last-child{
+    background-color: #0042dc;
+}

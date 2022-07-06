@@ -1,0 +1,144 @@
+.summer_wrapper{
+    width: 66%;
+    height: 320px;
+    /* background-color: red; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-bottom: 1px solid #ddd;
+}
+
+.summer_box img{
+    width: 260px;
+    margin-left: 20px;
+}
+.summer_box p{
+    font-size: 14px;
+    text-align: center;
+}
+.summer_text{
+    margin-left:340px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #000;
+    font-weight: 600;
+}
+
+.reclam{
+    width: 65%;
+    height: 60px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin:20px auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reclam img{
+    width: 80px;
+}
+.reclam h2{
+    font-size: 14px;
+}
+.reclam p{
+    font-size: 14px;
+    margin-left: 2px;
+}
+.reclam a{
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.foryou{
+    width: 67%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 410px;
+    margin: auto;
+}
+
+.foryou_box{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.foryou_box h1{
+    font-size: 16px;
+    margin: 10px;
+}
+.foryou_box p{
+    font-size: 12px;
+    margin: 10px;
+}
+
+.shop_now{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: 15px 10px;
+    cursor: pointer;
+}
+.shop_now:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.season_wrapper{
+    width: 65%;
+    height: 480px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:  30px;
+}
+
+.season_box{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.season_box h1{
+    font-size: 15px;
+    margin: 10px;
+}
+.season_box p{
+    font-size: 13px;
+    margin: 10px;
+}
+
+.feedBack{
+    width: 100%;
+    height: 150px;
+    background-color: #E6F1FC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.feedBack h3{
+    font-weight: 500;
+    font-size: 15px;
+}
+.feedBack button{
+    width: 150px;
+   height: 37px;
+   border-radius: 20px;
+   background-color: #fff;
+   border: 1px solid #000;
+   color: #000;
+   font-weight: 600;
+   cursor: pointer;
+   margin: 13px;
+}
+.feedBack button:hover{
+    border: 2px solid #000;
+}
+.summer_box p{
+    color: #000;
+    text-decoration: underline #fff;
+}

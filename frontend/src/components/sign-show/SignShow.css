@@ -1,0 +1,55 @@
+.signShow{
+    width: 180px;
+    height: 180px;
+    background-color: #fff;
+    position: absolute;
+    top: 88px;
+    right: 25px;
+    z-index: 20;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+}
+
+.signButton{
+    width: 85%;
+    height: 36px;
+    background-color: #0071DC;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    margin: 0px 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.signButton:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+.registerButton{
+    width: 85%;
+    height: 36px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #000;
+    font-size: 12px;
+    margin: 0px 12px;
+    cursor: pointer;
+}
+.registerButton:hover{
+    background-color:#0071DC;
+    border: none;
+    color: #fff;
+}
+.signShow a{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+    width: 85%;
+    padding: 10px 0px;
+    border-top: 1px solid #ddd;
+}

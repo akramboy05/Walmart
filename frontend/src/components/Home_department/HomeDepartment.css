@@ -1,0 +1,42 @@
+.department{
+    width: 66%;
+    height: 330px;
+    margin: auto;
+    /* background-color: green; */
+}
+.department_text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 99%;
+}
+.department_text h1{
+    margin: 10px;
+    font-size: 20px;
+}
+.department_text a{
+    color: #000;
+    font-size: 13px;
+}
+
+.home_department{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.home_department_box{
+    width: 210px;
+    height: 250px;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.home_department_box p{
+    position: absolute;
+    bottom: 130px;
+    left: 20px;
+    font-size: 20px;
+    color: #0097D8;
+}

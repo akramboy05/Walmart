@@ -1,0 +1,49 @@
+.electronics_wrapper{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    margin: auto
+}
+.electronic_reclam{
+    width: 67%;
+    height: 170px;
+    background-image: url("https://i5.walmartimages.com/dfw/4ff9c6c9-7510/k2-_a974bb5c-ccb8-4e8d-bd4d-2124e96d75ca.v1.jpg");
+    margin: 20px auto;
+    background-size: cover;
+}
+.electronic_reclam h1{
+    text-align: center;
+    padding-top: 45px;
+    font-size: 30px;
+    color: #333;
+}
+.electronic_reclam p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.product_box2 img{
+ width: 250px;
+}
+.product_box2 {
+    width: 270px;
+    height: 400px;
+    /* background-color: red; */
+    margin: 41px 31px;
+}
+.product_box2 h1{
+    font-size: 15px;
+    color: #000;
+    margin: 20px 0px;
+}
+.product_box2 p{
+    color: #000;
+    font-size: 13px;
+}
+.product_box2 svg{
+    margin: 10px 2px;
+    color: #000;
+
+}

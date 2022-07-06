@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans:wght@300;500&family=Play&family=Poppins:ital,wght@0,300;0,400;0,500;1,300&family=Roboto:ital@0;1&family=Ubuntu&family=Vazirmatn:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}

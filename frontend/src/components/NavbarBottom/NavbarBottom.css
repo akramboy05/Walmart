@@ -1,0 +1,45 @@
+.navbarBottom{
+    width: 100%;
+    height: 40px;
+    background-color: #004F9A;
+    display: flex;
+    align-items: center;
+}
+.colspan{
+    margin-left: 7px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.colspan a{
+    color: #fff;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.colspan a svg{
+    margin: 5px;
+    font-size: 15px;
+}
+.colspan a:first-child{
+    border-right: 1px solid #fff;
+    padding:0px  9px;
+    height: 17px;
+}
+
+.navbar_bottom_collection{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.navbar_bottom_collection li{
+    list-style-type: none;
+    margin: 10px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+.navbar_bottom_collection li:hover{
+    text-decoration: underline;
+}
